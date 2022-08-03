@@ -1,0 +1,12 @@
+ALGORITHM Dot product
+VAR
+    tab1 : ARRAY_OF type[50];
+    tab2 : ARRAY_OF type[50];
+i,n : INTEGER; 
+BEGIN
+  Read(n);
+  FOR i FROM 0 TO n-1 STEP 1  DO
+t[i] :=tab1[i]+tab2[i];
+ END_FOR
+ write(t[i]);
+END
